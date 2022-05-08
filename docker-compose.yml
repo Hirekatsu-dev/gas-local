@@ -1,0 +1,7 @@
+version: '2'
+services:
+  gas:
+    build: ./gas
+    tty: true
+    volumes:
+      - ./gas/app:/app
